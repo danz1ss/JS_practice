@@ -1,0 +1,104 @@
+body, p{
+    margin: 0px;
+}
+
+@font-face{
+    font-family: Inter;
+    font-weight: 400;
+    src: url(fonts/InterRegular.ttf);
+}
+@font-face{
+    font-family: Inter;
+    font-weight: 4bold;
+    src: url(fonts/InterBold.ttf);
+}
+
+html{
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+.container{
+    background: #6600FF;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.weather-app{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    height: 530px;
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.location-bar{
+    height: 44px;
+    display: flex;
+}
+.location-button{
+    height: 100%;
+    width: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,40);
+    margin-left: 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.location-input{
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,40);
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+.current-weather{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.current-weather-icon{
+    height: 220px;
+    width: 220px;
+}
+.current-weather-temperature{
+    font-size: 45px;
+}
+.current-weather-status{
+    font-size: 25px;
+}
+.forecast{
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    overflow-y: hidden;
+}
+.forecast-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.forecast-time{
+    font-size: 15px;
+    font-weight: bold;
+}
+.forecast-icon{
+    width: 40px;
+    height: 40px;
+}
+.forecast-temperature{
+    width: 15px;
+    height: 15px;
+}
