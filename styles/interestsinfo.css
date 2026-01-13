@@ -1,0 +1,28 @@
+.interests-info {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    height: 177px;
+    margin: 0;
+    padding: 12px;
+    border-radius: 12px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.interests-info__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.interests-info__list__item {
+    padding: 6px 12px;
+    background: #FFF;
+    border-radius: 20px;
+    font-size: 10px;
+    line-height: 1.2;
+    white-space: nowrap;
+}

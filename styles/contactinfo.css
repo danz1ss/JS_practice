@@ -1,0 +1,25 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    height: 68px;
+    margin: 0;
+    padding: 12px;
+    border-radius: 12px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: black;
+}
+.header-text.contact {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.contact-info__info {
+    height: 15px;
+    display: flex;
+}
+.contact-info__text {
+    color: #fff;
+    font-size: 10px;
+}

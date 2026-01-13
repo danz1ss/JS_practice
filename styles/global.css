@@ -1,0 +1,13 @@
+p,
+h3 {
+    margin: 0;
+}
+
+body{
+    font-family: Poppins;
+    font-weight: 400;
+}
+ 
+.header-text{
+    margin-bottom: 15px;
+}
